@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/_bg__android_large___1_ek2_color">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rectangle_5_color">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="65dp">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/form"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/chatText"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toLeftOf="@+id/buttonSend"
+            android:background="@drawable/textbox"
+
+            android:inputType="textMultiLine"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_width="88dp"
+            android:layout_height="40dp"
+            android:text="Send"
+            android:id="@+id/buttonSend"
+            android:textSize="18dp"
+            android:layout_alignBottom="@+id/chatText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/send_button"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

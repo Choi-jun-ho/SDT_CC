@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		android_large___1
+     *	@date 		Wednesday 10th of May 2023 05:22:59 AM
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+
+
+	<RelativeLayout
+		android:id="@+id/page_android_large___1_ek1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<View
+			android:id="@+id/_bg__android_large___1_ek2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/_bg__android_large___1_ek2_shape" />
+
+		<View
+			android:id="@+id/rectangle_23"
+			android:layout_width="344dp"
+			android:layout_height="266dp"
+			android:layout_marginStart="34dp"
+			android:layout_marginTop="194dp"
+			android:background="@drawable/rectangle_23_shape" />
+
+		<Button
+			android:id="@+id/rectangle_25"
+			android:layout_width="74dp"
+			android:layout_height="40dp"
+			android:layout_marginStart="168dp"
+			android:layout_marginTop="402dp"
+			android:background="@drawable/rectangle_25_shape"
+			android:text="@string/btn_pw"
+			android:textColor="#999999"
+			android:textSize="8sp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/rectangle_26"
+			android:layout_width="78dp"
+			android:layout_height="40dp"
+			android:layout_marginStart="64dp"
+			android:layout_marginTop="402dp"
+			android:background="@drawable/rectangle_26_shape"
+			android:text="@string/btn_id"
+			android:textColor="#999999"
+			android:textSize="7sp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/rectangle_27"
+			android:layout_width="78dp"
+			android:layout_height="40dp"
+			android:layout_marginStart="274dp"
+			android:layout_marginTop="403dp"
+			android:background="@drawable/rectangle_27_shape"
+			android:text="@string/btn_join"
+			android:textColor="#999999"
+			android:textSize="9sp"
+			android:textStyle="bold" />
+
+		<ImageView
+			android:id="@+id/line_1"
+			android:layout_width="21dp"
+			android:layout_height="0dp"
+			android:layout_marginStart="135dp"
+			android:layout_marginTop="424dp"
+			android:contentDescription="line_1"
+			android:src="@drawable/line_1" />
+
+		<ImageView
+			android:id="@+id/line_2"
+			android:layout_width="21dp"
+			android:layout_height="0dp"
+			android:layout_marginStart="252dp"
+			android:layout_marginTop="424dp"
+			android:contentDescription="line_2"
+			android:src="@drawable/line_2" />
+
+		<Button
+			android:id="@+id/rectangle_5"
+			android:layout_width="84dp"
+			android:layout_height="32dp"
+			android:layout_marginStart="262dp"
+			android:layout_marginTop="350dp"
+			android:background="@drawable/rectangle_5_shape"
+			android:text="@string/btn_login"
+			android:textColor="#444444"
+			android:textSize="11sp"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/rectangle_3"
+			android:layout_width="282dp"
+			android:layout_height="40dp"
+			android:layout_marginStart="64dp"
+			android:layout_marginTop="235dp"
+			android:background="@drawable/rectangle_3_shape"
+			android:hint="아이디"
+			android:paddingLeft="16dp"
+			android:textColorHint="#777777"
+			android:textSize="16sp" />
+
+		<EditText
+			android:id="@+id/rectangle_24"
+			android:layout_width="282dp"
+			android:layout_height="40dp"
+			android:layout_marginStart="64dp"
+			android:layout_marginTop="296dp"
+			android:background="@drawable/rectangle_24_shape"
+			android:hint="비밀번호"
+			android:paddingLeft="16dp"
+			android:textColorHint="#777777"
+			android:textSize="16sp" />
+
+
+	</RelativeLayout>
+
+</LinearLayout>
